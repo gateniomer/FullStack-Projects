@@ -1,0 +1,42 @@
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 1rem;
+}
+
+.column-big {
+  width: 70%;
+}
+
+.column-small {
+  width: 30%;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.py-4 {
+  padding: 4rem 0;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  background: var(--buttons);
+  border-radius: 5px;
+  margin-top: 5px;
+  transition: all var(--animation-duration);
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}

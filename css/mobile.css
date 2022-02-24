@@ -1,0 +1,19 @@
+/* Home */
+@media (max-width: 600px) {
+  #home-a {
+    height: 40vh;
+  }
+  #home-a .container {
+    flex-direction: column;
+  }
+  #home-a .container div {
+    width: 100%;
+  }
+  #home-a .container div h2,
+  #home-a .container div h3 {
+    font-size: 10vw;
+  }
+  #home-a .container .column-big {
+    margin-bottom: 10px;
+  }
+}
