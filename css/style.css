@@ -1,6 +1,6 @@
 :root {
   --primary-color: #8ecae6;
-  --secondary-color: #023047;
+  --secondary-color: #5353aa;
   --buttons: #5d5be6;
   --animation-duration: 0.4s;
 }
@@ -117,7 +117,7 @@ h4 {
   transform: skew(5deg, 15deg);
   background: rgb(242, 250, 221);
   border-radius: 20px;
-  box-shadow: 5px 10px black;
+  box-shadow: 5px 10px #000;
   padding: 20px;
 }
 
