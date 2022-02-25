@@ -1,7 +1,7 @@
 :root {
   --primary-color: #8ecae6;
   --secondary-color: #023047;
-  --buttons: #fca311;
+  --buttons: #a3a3e7;
   --animation-duration: 0.4s;
 }
 
@@ -14,8 +14,15 @@
 html,
 body {
   font-family: "Rubik", sans-serif;
-  background: var(--secondary-color);
+  background: rgb(40, 36, 102);
+  background: radial-gradient(
+    circle,
+    rgba(40, 36, 102, 1) 0%,
+    rgba(39, 39, 152, 1) 35%,
+    rgba(12, 47, 54, 1) 100%
+  );
   color: var(--primary-color);
+  line-height: 1.5;
 }
 
 a {
@@ -35,7 +42,11 @@ h1 {
   font-size: 2.5rem;
 }
 h2 {
-  font-size: 4rem;
+  font-size: 5rem;
+  line-height: 1;
+}
+h4 {
+  font-size: 1.5rem;
 }
 
 /* Header */
@@ -53,4 +64,21 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#home-a .container .column-big p {
+  max-width: 80%;
+}
+
+#home-a .container .column-big .btn {
+  margin: 10px 0;
+}
+
+#home-a .container .column-small img {
+  animation: float 5s;
+  animation-iteration-count: infinite;
+}
+
+#home-a .container .column-big .tag {
+  margin-right: 5px;
 }

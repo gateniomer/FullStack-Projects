@@ -1,16 +1,16 @@
 .container {
-  max-width: 920px;
+  max-width: 1100px;
   margin: 0 auto;
   height: 100%;
   padding: 1rem;
 }
 
 .column-big {
-  width: 70%;
+  width: 60%;
 }
 
 .column-small {
-  width: 30%;
+  width: 40%;
 }
 
 .py-1 {
@@ -30,13 +30,31 @@
   display: inline-block;
   border: none;
   cursor: pointer;
-  padding: 1rem 2rem;
+  padding: 0.6rem 1.5rem;
   background: var(--buttons);
-  border-radius: 5px;
-  margin-top: 5px;
+  border-radius: 10px;
   transition: all var(--animation-duration);
+  font-size: 1.2rem;
 }
 
 .btn:hover {
   transform: scale(1.1);
+}
+
+.tag {
+  display: inline-block;
+  background: #5353aa;
+  padding: 0.3rem 0.5rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+
+/* Animations */
+@keyframes float {
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
