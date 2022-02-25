@@ -67,6 +67,7 @@
   font-size: 1.1rem;
   border-radius: 5px;
   position: relative;
+  cursor: pointer;
 }
 
 .tag::before {
@@ -74,15 +75,26 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: yellow;
+  background: rgb(184, 146, 255);
   width: 0%;
   height: 100%;
   z-index: 1;
   border-radius: 5px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .tag:hover::before {
-  width: 100%;
+  width: 5px;
+}
+
+.card {
+  width: 80%;
+  height: 500px;
+  border-radius: 20px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 1rem;
+  color: var(--primary-color);
+  box-shadow: 10px 10px 20px;
 }
 
 .float-anim {
