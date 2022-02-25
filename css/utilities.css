@@ -95,11 +95,12 @@
   box-shadow: 10px 10px 50px;
 }
 
+/* Animations */
+
 .float-anim {
-  animation: float 5s infinite;
+  animation: float 4s ease-in-out infinite;
 }
 
-/* Animations */
 @keyframes float {
   50% {
     transform: translateY(10px);
