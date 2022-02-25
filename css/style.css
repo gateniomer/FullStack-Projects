@@ -51,8 +51,27 @@ h4 {
 
 /* Header */
 #header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 1rem 2rem;
   height: 10vh;
+}
+
+#header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header ul li {
+  margin-right: 20px;
+}
+
+#header ul li a img {
+  border-radius: 50%;
+  width: 70px;
+  margin-left: 10px;
 }
 
 /* Home page */
@@ -75,7 +94,7 @@ h4 {
 }
 
 #home-a .container .column-left .btn {
-  margin: 15px 0;
+  margin: 30px 0;
 }
 
 #home-a .container .column-left .tag {
@@ -90,7 +109,7 @@ h4 {
   height: 400px;
   opacity: 0.1;
   transform: skew(10deg, 15deg);
-  background: #fff;
+  background: rgb(242, 250, 221);
   border-radius: 20px;
   box-shadow: 5px 10px black;
   padding: 20px;
