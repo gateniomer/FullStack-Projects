@@ -48,6 +48,24 @@ h4 {
   font-size: 1.5rem;
 }
 
+/* Custom Scrollbar */
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f4f4f4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--buttons);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
+}
+
 /* Header */
 #header {
   display: flex;
