@@ -6,28 +6,12 @@
   position: relative;
 }
 
-.container-bottom-text {
-  position: absolute;
-  bottom: 0;
-}
-
-.container::before {
-  content: "";
-  position: absolute;
-  top: 200px;
-  left: -20px;
-  width: 80%;
-  height: 400px;
-  opacity: 0.1;
-  transform: skew(10deg, 15deg);
-}
-
-.column-big {
+.column-left {
   width: 50%;
   z-index: 1;
 }
 
-.column-small {
+.column-right {
   width: 50%;
   z-index: 1;
 }
@@ -94,7 +78,7 @@
   background: rgba(255, 255, 255, 0.5);
   padding: 1rem;
   color: var(--primary-color);
-  box-shadow: 10px 10px 20px;
+  box-shadow: 10px 10px 50px;
 }
 
 .float-anim {

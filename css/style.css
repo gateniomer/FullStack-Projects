@@ -66,28 +66,45 @@ h4 {
   justify-content: center;
 }
 
-#home-a .container::before {
-  background: #fff;
-  border-radius: 20px;
-  box-shadow: 5px 10px black;
-}
-
-#home-a .container .column-big h2 {
+#home-a .container .column-left h2 {
   font-size: 5rem;
 }
 
-#home-a .container .column-big p {
+#home-a .container .column-left p {
   max-width: 80%;
 }
 
-#home-a .container .column-big .btn {
+#home-a .container .column-left .btn {
   margin: 15px 0;
 }
 
-#home-a .container .column-big .tag {
+#home-a .container .column-left .tag {
   margin-right: 5px;
 }
 
+#home-a .container .container-background {
+  position: absolute;
+  top: 200px;
+  left: -20px;
+  width: 80%;
+  height: 400px;
+  opacity: 0.1;
+  transform: skew(10deg, 15deg);
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 5px 10px black;
+  padding: 20px;
+}
+
+#home-a .container .container-background div {
+  display: inline-block;
+  height: 12px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
 #home-a .container .container-bottom-text {
+  position: absolute;
+  bottom: 0;
   animation-duration: 2.5s;
 }
