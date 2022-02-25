@@ -76,6 +76,14 @@
   width: 5px;
 }
 
+.marker {
+  background: #5353aa;
+  padding: 0 1rem;
+  opacity: 0.9;
+  border-radius: 0 20px 0 20px;
+  color: rgba(230, 230, 230, 0.753);
+}
+
 .card {
   width: 80%;
   height: 500px;
