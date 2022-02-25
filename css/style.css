@@ -127,3 +127,7 @@ h4 {
   bottom: 0;
   animation-duration: 2.5s;
 }
+
+#home-a .container .column-left .btn {
+  margin-right: 15px;
+}
