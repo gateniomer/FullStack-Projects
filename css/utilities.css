@@ -6,24 +6,29 @@
   position: relative;
 }
 
+.container-bottom-text {
+  position: absolute;
+  bottom: 0;
+}
+
 .container::before {
   content: "";
   position: absolute;
-  top: 100px;
-  left: 5%;
-  width: 70%;
-  height: 80%;
+  top: 200px;
+  left: -20px;
+  width: 80%;
+  height: 400px;
   opacity: 0.1;
-  transform: skew(20deg, 10deg);
+  transform: skew(10deg, 15deg);
 }
 
 .column-big {
-  width: 60%;
+  width: 50%;
   z-index: 1;
 }
 
 .column-small {
-  width: 40%;
+  width: 50%;
   z-index: 1;
 }
 
@@ -44,7 +49,7 @@
   display: inline-block;
   border: none;
   cursor: pointer;
-  padding: 0.5rem 1.2rem;
+  padding: 0.5rem 1.5rem;
   background: var(--buttons);
   border-radius: 10px;
   transition: all var(--animation-duration);
@@ -80,10 +85,14 @@
   width: 100%;
 }
 
+.float-anim {
+  animation: float 5s infinite;
+}
+
 /* Animations */
 @keyframes float {
   50% {
-    transform: translateY(20px);
+    transform: translateY(10px);
   }
   100% {
     transform: translateY(0px);

@@ -57,7 +57,7 @@ h4 {
 
 /* Home page */
 #home-a {
-  height: 75vh;
+  height: 90vh;
 }
 
 #home-a .container {
@@ -80,11 +80,10 @@ h4 {
   margin: 15px 0;
 }
 
-#home-a .container .column-small img {
-  animation: float 5s;
-  animation-iteration-count: infinite;
-}
-
 #home-a .container .column-big .tag {
   margin-right: 5px;
+}
+
+#home-a .container .container-bottom-text {
+  animation-duration: 2.5s;
 }
