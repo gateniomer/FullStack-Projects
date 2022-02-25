@@ -57,7 +57,7 @@ h4 {
 
 /* Home page */
 #home-a {
-  height: 70vh;
+  height: 75vh;
 }
 
 #home-a .container {
@@ -66,12 +66,18 @@ h4 {
   justify-content: center;
 }
 
+#home-a .container::before {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 5px 10px black;
+}
+
 #home-a .container .column-big p {
   max-width: 80%;
 }
 
 #home-a .container .column-big .btn {
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 #home-a .container .column-small img {
