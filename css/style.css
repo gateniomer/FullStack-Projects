@@ -155,3 +155,17 @@ h4 {
 #home-a .container .column-left .btn {
   margin-right: 15px;
 }
+
+/* HTML Section */
+#home-html {
+  height: 100vh;
+}
+
+#home-html .container {
+  padding: 5rem 0;
+}
+
+#home-html .container .card {
+  margin-left: 5rem;
+  margin: 2rem 0 2rem 5rem;
+}
