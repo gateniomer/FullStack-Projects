@@ -4,21 +4,10 @@
     background: green;
   }
   h1 {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
   }
   h2 {
-    font-size: 2.3rem;
-  }
-  #header {
-    flex-direction: column;
-    padding-top: 1rem;
-  }
-
-  #home-a .container {
-    flex-direction: row;
-  }
-  #home-a .container .column-left h2 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 
@@ -27,13 +16,9 @@
   body {
     background: blue;
   }
-  #home-a .container .column-right {
-    display: none;
-  }
-
-  #home-a .container .column-left {
-    width: 100%;
-    padding: 0 3rem;
+  #header {
+    display: block;
+    padding-top: 20px;
   }
 }
 
@@ -41,9 +26,5 @@
 @media (max-width: 600px) {
   body {
     background: red;
-  }
-  #header {
-    flex-direction: column;
-    padding-top: 1rem;
   }
 }
