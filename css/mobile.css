@@ -1,5 +1,5 @@
 /* Laptops */
-@media (max-width: 992px) {
+@media (max-width: 1100px) {
   body {
     background: green;
   }
@@ -23,13 +23,17 @@
 }
 
 /* Tablets */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   body {
     background: blue;
   }
-  #header {
-    flex-direction: column;
-    padding-top: 1rem;
+  #home-a .container .column-right {
+    display: none;
+  }
+
+  #home-a .container .column-left {
+    width: 100%;
+    padding: 0 3rem;
   }
 }
 
