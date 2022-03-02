@@ -102,9 +102,7 @@ h4 {
 }
 
 #home-a .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
 }
 
 #home-a .container .column-left h2 {
@@ -157,13 +155,6 @@ h4 {
   position: relative;
 }
 
-#home-html .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-
 #home-html .container .marker {
   border-radius: 20px 0 20px 0;
 }
@@ -188,13 +179,6 @@ h4 {
   position: relative;
 }
 
-#home-css .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-}
-
 #home-css .container .card {
   display: flex;
   border-radius: 50px 50px 50px 5px;
@@ -214,6 +198,7 @@ h4 {
 
 #home-design-theory .container .box-container {
   display: grid;
+  width: 100%;
   grid-gap: 1rem;
   grid-template-columns: repeat(4, minmax(200px, 1fr));
 }
@@ -227,6 +212,8 @@ h4 {
   text-align: center;
   justify-content: center;
   font-size: 1.3rem;
+  width: 100%;
+  justify-content: center;
 }
 
 #home-tools .container .box-container a .img-container {
