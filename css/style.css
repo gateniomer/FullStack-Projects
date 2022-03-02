@@ -221,16 +221,18 @@ h4 {
 /* Tools Section */
 #home-tools .container ul {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
   text-align: center;
-  height: 150px;
+  justify-content: center;
+  height: 170px;
   font-size: 1.3rem;
 }
 
 #home-tools .container ul li {
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-bottom: 50px;
   height: 100%;
+  width: 250px;
 }
 
 #home-tools .container ul li a .img-container {
