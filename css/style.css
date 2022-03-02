@@ -219,38 +219,32 @@ h4 {
 }
 
 /* Tools Section */
-#home-tools .container ul {
-  display: flex;
-  flex-wrap: wrap;
+
+#home-tools .container .box-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 300px));
+  grid-gap: 1rem;
   text-align: center;
   justify-content: center;
-  height: 170px;
   font-size: 1.3rem;
 }
 
-#home-tools .container ul li {
-  margin-left: 20px;
-  margin-bottom: 50px;
-  height: 100%;
-  width: 250px;
-}
-
-#home-tools .container ul li a .img-container {
+#home-tools .container .box-container a .img-container {
   overflow: hidden;
   width: 100%;
-  height: 100%;
+  height: 80%;
   box-shadow: 2px 2px 10px #000;
   border-radius: 10px;
   margin-bottom: 10px;
 }
 
-#home-tools .container ul li a .img-container img {
+#home-tools .container .box-container a .img-container img {
   transition: 0.5s all;
-  object-fit: cover;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
-#home-tools .container ul li a:hover img {
+#home-tools .container .box-container a:hover img {
   transform: scale(1.2);
 }
