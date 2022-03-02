@@ -103,6 +103,7 @@ h4 {
 
 #home-a .container {
   flex-direction: row;
+  align-items: center;
 }
 
 #home-a .container .column-left h2 {
@@ -234,4 +235,20 @@ h4 {
 
 #home-tools .container .box-container a:hover img {
   transform: scale(1.2);
+}
+
+/* Footer */
+#home-footer {
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+#home-footer .container .social ul {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+#home-footer .container .social ul li {
+  margin: 0 1rem;
 }
