@@ -230,4 +230,5 @@ h4 {
 
 #home-design-theory .container h4.marker {
   background: var(--buttons);
+  margin-bottom: 2rem;
 }
