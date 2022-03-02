@@ -1,0 +1,45 @@
+/* Laptops */
+@media (max-width: 992px) {
+  body {
+    background: green;
+  }
+  h1 {
+    font-size: 2.8rem;
+  }
+  h2 {
+    font-size: 2.3rem;
+  }
+  #header {
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+
+  #home-a .container {
+    flex-direction: row;
+  }
+  #home-a .container .column-left h2 {
+    font-size: 4rem;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  body {
+    background: blue;
+  }
+  #header {
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  body {
+    background: red;
+  }
+  #header {
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+}
