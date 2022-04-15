@@ -1,0 +1,161 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-opposite {
+  align-items: flex-end;
+}
+
+.column-left {
+  width: 50%;
+  z-index: 1;
+}
+
+.column-right {
+  width: 50%;
+  z-index: 1;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.py-4 {
+  padding: 4rem 0;
+}
+
+.m-bottom {
+  margin-bottom: 50px;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  background: var(--buttons);
+  border-radius: 10px;
+  transition: all var(--animation-duration);
+  font-size: 1.2rem;
+}
+
+.btn-outlined {
+  background: transparent;
+  border: 2px solid var(--buttons);
+  color: #fff;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.tag {
+  display: inline-block;
+  background: var(--secondary-color);
+  padding: 0.3rem 0.5rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.tag::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(184, 146, 255);
+  width: 0%;
+  height: 100%;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+.tag:hover::before {
+  width: 5px;
+}
+
+.marker {
+  display: inline-block;
+  width: fit-content;
+  background: var(--secondary-color);
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+  border-radius: 0 20px 0 20px;
+  color: rgba(230, 230, 230, 0.753);
+}
+
+.marker.marker-small {
+  background: var(--buttons);
+  margin-bottom: 2rem;
+}
+
+.card {
+  display: inline-block;
+  width: fit-content;
+  border-radius: 50px 50px 50px 5px;
+  border: 5px solid var(--secondary-color);
+  background: #00000038;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  color: white;
+  font-size: 1.5rem;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.card i {
+  color: var(--buttons);
+  text-shadow: none;
+}
+
+.box {
+  padding: 1rem;
+  box-shadow: 5px 5px 5px #000;
+  background: #00000038;
+  border: 5px solid var(--secondary-color);
+  color: #fff;
+  border-radius: 5px;
+  height: 250px;
+  color: var(--primary-color);
+  transition: 0.4s all;
+}
+
+.box:hover {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  box-shadow: 10px 10px 1px #000;
+}
+
+.box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+/* Animations */
+
+.float-anim {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
