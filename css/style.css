@@ -3,6 +3,7 @@
   --secondary-color: #5353aa;
   --buttons: #5d5be6;
   --animation-duration: 0.4s;
+  --p-normal: 2rem;
 }
 
 * {
@@ -71,10 +72,12 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0rem 2rem;
-  height: 15vh;
+  padding: 10px var(--p-normal);
 }
-
+#header h1 a {
+  font-size: calc(24px + 1vw);
+  line-height: calc(1.1em + 0.5vw);
+}
 #header .logo i {
   padding: 0.6rem;
   background: var(--buttons);
@@ -93,17 +96,15 @@ h4 {
 #header ul li a img {
   border-radius: 50%;
   width: 70px;
-  margin-left: 10px;
 }
 
 /* Home page */
-#home-a {
-  height: 85vh;
-}
 
 #home-a .container {
   flex-direction: row;
   align-items: center;
+  width: 90%;
+  padding: 100px 0;
 }
 
 #home-a .container .column-left h2 {
@@ -116,8 +117,11 @@ h4 {
   max-width: 80%;
 }
 
-#home-a .container .column-left .btn {
-  margin: 30px 15px 30px 0;
+#home-a .container .column-left #btn-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 40px 0;
 }
 
 #home-a .container .column-left .tag {
@@ -126,15 +130,16 @@ h4 {
 
 #home-a .container .container-background {
   position: absolute;
-  top: 200px;
-  left: -20px;
+  top: 20%;
+  left: 10%;
   width: 80%;
   height: 400px;
-  opacity: 0.1;
-  transform: skew(5deg, 15deg);
+  opacity: 0.05;
+  transform: skew(10deg, 20deg);
   background: rgb(242, 250, 221);
   border-radius: 20px;
-  box-shadow: 50px 20px #000, -50px -20px #000;
+  border: 10px solid black;
+  box-shadow: -10px 10px #b0b0b0;
   padding: 20px;
 }
 
@@ -145,10 +150,12 @@ h4 {
   margin-bottom: 20px;
 }
 
-#home-a .container .container-bottom-text {
-  position: absolute;
-  bottom: 0;
-  animation-duration: 2.5s;
+#home-a .container-bottom-text {
+  text-align: center;
+}
+
+#home-a .container #tags a {
+  margin: 5px 0;
 }
 
 /* HTML Section */

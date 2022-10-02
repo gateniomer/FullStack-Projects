@@ -17,8 +17,40 @@
     background: blue;
   }
   #header {
-    display: block;
-    padding-top: 20px;
+    height: auto;
+    padding: 10px 20px;
+  }
+  #header nav {
+    font-size: 12px;
+  }
+  #header ul {
+    justify-content: right;
+  }
+  #header nav ul li a img {
+    width: 40px;
+    margin-left: 0px;
+  }
+  #home-a .container {
+    padding: 30px 0 50px 0;
+  }
+  #home-a .container .column-left,
+  #home-a .container .column-right {
+    width: 100%;
+    padding: 0 1rem;
+  }
+  #home-a .container .column-right {
+    display: none;
+  }
+  #home-a .container .container-bottom-text {
+    margin: 50px auto;
+  }
+  /* Design Theory Section */
+  #home-design-theory .container .box-container {
+    grid-template-columns: repeat(auto-fill, 40%);
+    justify-content: center;
+  }
+  #home-tools .container .box-container {
+    grid-template-columns: repeat(auto-fill, 40%);
   }
 }
 
