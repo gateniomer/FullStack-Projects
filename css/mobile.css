@@ -69,12 +69,18 @@
   #home-tools .container .box-container {
     grid-template-columns: repeat(2, 1fr);
   }
+  #home-about .container {
+    flex-direction: column;
+  }
+  #home-about .container > div {
+    width: 100%;
+  }
 }
 
 /* Mobile */
 @media (max-width: 600px) {
   .marker-small {
-    font-size: 20px;
+    font-size: 1.2rem;
   }
   #header {
     display: block;

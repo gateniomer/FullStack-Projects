@@ -198,6 +198,32 @@
   color: #fff;
 }
 
+.course-preview {
+  display: flex;
+  gap: 1rem;
+  margin: 10px 0;
+  max-width: 450px;
+  border: 1px solid var(--secondary-color);
+  padding: 10px;
+}
+.course-preview img {
+  width: 150px;
+  object-fit: cover;
+}
+.course-preview p {
+  font-size: 14px;
+}
+.course-preview div h4 {
+  font-size: 16px;
+}
+.course-preview div a {
+  display: inline-block;
+  margin-top: 5px;
+  background-color: var(--buttons);
+  padding: 0.2rem 0.7rem;
+  border-radius: 5px;
+}
+
 /* Animations */
 
 .float-anim {
