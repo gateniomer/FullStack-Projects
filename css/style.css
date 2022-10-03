@@ -21,7 +21,7 @@ body {
       rgba(39, 39, 152, 0.9) 35%,
       rgba(12, 47, 54, 0.9) 100%
     ),
-    url("/img/cool-background.png");
+    url("/HTML-CSS-Project/img/cool-background.png");
   color: var(--primary-color);
   line-height: 1.5;
   scroll-behavior: smooth;
