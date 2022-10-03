@@ -12,4 +12,4 @@ Live site: https://gateniomer.github.io/HTML-CSS-Project/
 
 Github repo: https://github.com/gateniomer/HTML-CSS-Project
 
-![showcase](./src/assets/showcase.png)
+![showcase](./img/showcase.png)
