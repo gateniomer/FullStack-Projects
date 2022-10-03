@@ -41,6 +41,22 @@
   #home-a .container .container-bottom-text {
     margin: 50px auto;
   }
+  #home-html .container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  #home-html .container div:first-child {
+    width: 100%;
+  }
+  #home-css .container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  #home-css .container div:first-child {
+    width: 100%;
+  }
   #home-tools .container .box-container {
     grid-template-columns: repeat(2, 1fr);
   }
