@@ -49,6 +49,11 @@
   #home-html .container div:first-child {
     width: 100%;
   }
+
+  #home-html .container img {
+    max-width: 600px;
+    width: 90%;
+  }
   #home-css .container {
     flex-direction: column;
     gap: 2rem;
@@ -56,6 +61,10 @@
 
   #home-css .container div:first-child {
     width: 100%;
+  }
+  #home-css .container img {
+    max-width: 600px;
+    width: 90%;
   }
   #home-tools .container .box-container {
     grid-template-columns: repeat(2, 1fr);
