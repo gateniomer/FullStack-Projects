@@ -26,7 +26,7 @@ body {
       rgba(39, 39, 152, 0.9) 35%,
       rgba(12, 47, 54, 0.9) 100%
     ),
-    url("/HTML-CSS-Project/img/cool-background.webp");
+    url("../img/cool-background.webp");
   color: var(--primary-color);
   line-height: 1.5;
   scroll-behavior: smooth;
@@ -53,6 +53,10 @@ h2 {
 }
 h4 {
   font-size: 1.3rem;
+}
+
+svg {
+  fill: #fff;
 }
 
 /* Custom Scrollbar */
@@ -256,7 +260,7 @@ h4 {
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
 }
-#home-design-theory .container .box-container .box:hover .icon {
+#home-design-theory .container .box-container .box:hover .icon-box {
   background: var(--secondary-color);
 }
 
