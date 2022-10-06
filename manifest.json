@@ -1,0 +1,8 @@
+{
+  "name": "HTML & CSS Project",
+  "short_name": "HTML & CSS Project",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "This website was built using only html & css!"
+}

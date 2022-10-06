@@ -52,7 +52,7 @@
     width: 100%;
   }
 
-  #home-html .container img {
+  #home-html .container video {
     max-width: 600px;
     width: 90%;
   }
@@ -64,7 +64,7 @@
   #home-css .container > div:first-child {
     width: 100%;
   }
-  #home-css .container img {
+  #home-css .container video {
     max-width: 600px;
     width: 90%;
   }
