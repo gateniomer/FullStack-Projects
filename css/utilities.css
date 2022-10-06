@@ -38,23 +38,6 @@
   padding: 8rem 0;
 }
 
-.icon {
-  display: inline-flex;
-}
-.icon-box {
-  box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  width: 48px;
-  height: 48px;
-  font-size: 24px;
-  line-height: 24px;
-  margin-bottom: 5px;
-}
-
 #responsiveness-indicator {
   display: flex;
   background: black;
@@ -257,50 +240,74 @@
   }
 }
 
-.github-icon {
+.icon {
+  display: inline-block;
   width: 50px;
   height: 60px;
   background-color: var(--primary-color);
+}
+.github-icon {
   -webkit-mask: url("../img/icons/github.svg") no-repeat center;
   mask: url("../img/icons/github.svg") no-repeat center;
 }
 
 .linkedin-icon {
-  width: 50px;
-  height: 60px;
-  background-color: var(--primary-color);
   -webkit-mask: url("../img/icons/linkedin.svg") no-repeat center;
   mask: url("../img/icons/linkedin.svg") no-repeat center;
 }
 
 .google-icon {
-  width: 50px;
-  height: 60px;
-  background-color: var(--primary-color);
   -webkit-mask: url("../img/icons/google.svg") no-repeat center;
   mask: url("../img/icons/google.svg") no-repeat center;
 }
 
 .html-icon {
-  width: 50px;
-  height: 60px;
-  background-color: var(--primary-color);
   -webkit-mask: url("../img/icons/html5.svg") no-repeat center;
   mask: url("../img/icons/html5.svg") no-repeat center;
 }
 
 .css-icon {
-  width: 50px;
-  height: 60px;
-  background-color: var(--primary-color);
   -webkit-mask: url("../img/icons/css3-alt.svg") no-repeat center;
   mask: url("../img/icons/css3-alt.svg") no-repeat center;
 }
 
 .pen-ruler-icon {
-  width: 50px;
-  height: 60px;
-  background-color: var(--primary-color);
   -webkit-mask: url("../img/icons/pen-ruler-solid.svg") no-repeat center;
   mask: url("../img/icons/pen-ruler-solid.svg") no-repeat center;
+}
+
+.palette-icon {
+  -webkit-mask: url("../img/icons/palette-solid.svg") no-repeat center;
+  mask: url("../img/icons/palette-solid.svg") no-repeat center;
+}
+
+.font-icon {
+  -webkit-mask: url("../img/icons/font-solid.svg") no-repeat center;
+  mask: url("../img/icons/font-solid.svg") no-repeat center;
+}
+
+.shapes-icon {
+  -webkit-mask: url("../img/icons/shapes-solid.svg") no-repeat center;
+  mask: url("../img/icons/shapes-solid.svg") no-repeat center;
+}
+
+.icons-icon {
+  -webkit-mask: url("../img/icons/icons-solid.svg") no-repeat center;
+  mask: url("../img/icons/icons-solid.svg") no-repeat center;
+}
+
+.tools-icon {
+  -webkit-mask: url("../img/icons/screwdriver-wrench-solid.svg") no-repeat
+    center;
+  mask: url("../img/icons/screwdriver-wrench-solid.svg") no-repeat center;
+}
+
+.about-icon {
+  -webkit-mask: url("../img/icons/book-open-reader-solid.svg") no-repeat center;
+  mask: url("../img/icons/book-open-reader-solid.svg") no-repeat center;
+}
+
+.code-icon {
+  -webkit-mask: url("../img/icons/code-solid.svg") no-repeat center;
+  mask: url("../img/icons/code-solid.svg") no-repeat center;
 }

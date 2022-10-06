@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/utilities.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mobile.css">
@@ -19,14 +18,20 @@
   </div>
   <header id="header">
     <!-- Logo -->
-    <h1 class="logo"><a href="index.html"><i class="fas fa-code marker"></i> HTML/CSS Website</a></h1>
+    <div id="logo">
+      <span id="logo-icon">
+        <i class="icon code-icon"></i>
+      </span>
+      <h1><a href="index.html"> HTML/CSS Website</a></h1>
+    </div>
+    
 
     <!-- Social Links -->
     <nav class="social">
       <ul>
-        <li><a href="https://github.com/gateniomer/Portfolio1---HTML-CSS" aria-label="Github Project" target="_blank"><div class="github-icon"></div></a></li>
-        <li><a href="https://www.linkedin.com/in/omer-gatenio-949482174/" aria-label="Linkedin" target="_blank"><div class="linkedin-icon"></div></a></li>
-        <li><a href="mailto:gateniomer@gmail.com" aria-label="Gmail" target="_blank"><div class="google-icon"></div></a></li>
+        <li><a href="https://github.com/gateniomer/Portfolio1---HTML-CSS" aria-label="Github Project" target="_blank"><div class="icon github-icon"></div></a></li>
+        <li><a href="https://www.linkedin.com/in/omer-gatenio-949482174/" aria-label="Linkedin" target="_blank"><div class="icon linkedin-icon"></div></a></li>
+        <li><a href="mailto:gateniomer@gmail.com" aria-label="Gmail" target="_blank"><div class="icon google-icon"></div></a></li>
         <li><a href="https://github.com/gateniomer" aria-label="Github Profile" target="_blank"><img src="https://avatars.githubusercontent.com/u/98481291?s=96&v=4" alt=""></a></li>
       </ul>
     </nav>
@@ -87,7 +92,7 @@
   <section id="home-html" class="py-4">
     <div class="container">
       <div>
-        <h2 class="marker"><div class="html-icon icon"></div> Made With HTML</h2>
+        <h2 class="marker"><div class="icon html-icon"></div> Made With HTML</h2>
         <span class="marker marker-small">the standard markup language for documents designed to be displayed in a web browser.</span>
         <p>HTML stands for HyperText Markup Language. It is a standard markup language for web page creation. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes. It’s also worth noting that HTML is not considered a programming language as it can’t create dynamic functionality.</p>
         <a href="https://www.hostinger.com/tutorials/what-is-html" target="_blank">soruce: hostinger</a>
@@ -104,7 +109,7 @@
   <section id="home-css" class="py-4">
     <div class="container">
       <div>
-        <h2 class="marker"><div class="css-icon icon"></div>Made With CSS</h2>
+        <h2 class="marker"><div class="icon css-icon"></div>Made With CSS</h2>
         <span class="marker marker-small">a simple mechanism for adding style (e.g., fonts, colors, spacing) to web documents.</span>
         <p>CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. The separation of HTML from CSS makes it easier to maintain sites, share style sheets across pages, and tailor pages to different environments.</p>
         <a href="https://www.w3.org/standards/webdesign/htmlcss" target="_blank">source: w3.org</a>
@@ -120,26 +125,26 @@
   <!-- Design Theory Section -->
   <section id="home-design-theory" class="py-4">
     <div class="container">
-      <h2 class="marker"><i class="pen-ruler-icon"></i> Designed Theory In Mind</h2>
+      <h2 class="marker"><i class="icon pen-ruler-icon"></i> Designed Theory In Mind</h2>
       <span class="marker marker-small">a system of ideas that explains how and why design works.</span>
       <div class="box-container">
         <div class="box">
-          <i class="fa-solid fa-palette icon-box"></i>
+          <i class="icon palette-icon"></i>
           <h2>Color Theory</h2>
           <p>Body of practical guidance to color mixing and the visual effects of a specific color combination.</p>
         </div>
         <div class="box">
-          <i class="fa-solid fa-font icon-box"></i>
+          <i class="icon font-icon"></i>
           <h2>Typography Theory</h2>
           <p>The art of arranging a message in a readable and aesthetically pleasing composition.</p>
         </div>
         <div class="box">
-          <i class="fa-solid fa-shapes icon-box"></i>
+          <i class="icon shapes-icon"></i>
           <h2>Layout Theory</h2>
           <p>The overall appearance and relationships between the graphic elements to achieve a smooth flow of message and eye movement for maximum effectiveness.</p>
         </div>
         <div class="box">
-          <i class="fa-solid fa-icons icon-box"></i>
+          <i class="icon icons-icon"></i>
           <h2>Logo Design Theory</h2>
           <p>Logo design is all about creating the perfect visual brand mark for a company.</p>
         </div>
@@ -150,7 +155,7 @@
   <!-- Tools Section -->
   <section id="home-tools" class="py-4">
     <div class="container">
-      <h2 class="marker"><i class="fa-solid fa-toolbox"></i> Tools I Used In This Project </h2>
+      <h2 class="marker"><i class="icon tools-icon"></i> Tools I Used In This Project </h2>
       <span class="marker marker-small">the most professional & useful tools available on the market!</span>
         <div class="box-container">
 
@@ -176,7 +181,7 @@
   <section id="home-about" class="py-4">
     <div class="container">
       <div>
-        <h2 class="marker"><i class="fa-solid fa-book-open-reader"></i> About This Project
+        <h2 class="marker"><i class="icon about-icon"></i> About This Project
         </h2>
         <span class="marker marker-small">
           and what the future holds ✨
@@ -217,9 +222,9 @@
     <!-- Social Links -->
     <nav class="social">
       <ul>
-        <li><a href="https://github.com/gateniomer/Portfolio1---HTML-CSS" aria-label="Github Project" target="_blank"><div class="github-icon"></div></a></li>
-        <li><a href="https://www.linkedin.com/in/omer-gatenio-949482174/" aria-label="Linkedin" target="_blank"><div class="linkedin-icon"></div></a></li>
-        <li><a href="mailto:gateniomer@gmail.com" aria-label="Gmail" target="_blank"><div class="google-icon"></div></a></li>
+        <li><a href="https://github.com/gateniomer/Portfolio1---HTML-CSS" aria-label="Github Project" target="_blank"><div class="icon github-icon"></div></a></li>
+        <li><a href="https://www.linkedin.com/in/omer-gatenio-949482174/" aria-label="Linkedin" target="_blank"><div class="icon linkedin-icon"></div></a></li>
+        <li><a href="mailto:gateniomer@gmail.com" aria-label="Gmail" target="_blank"><div class="icon google-icon"></div></a></li>
       </ul>
     </nav>
     <p>&copy; All Rights Reserved to Omer Gatenio</p>
