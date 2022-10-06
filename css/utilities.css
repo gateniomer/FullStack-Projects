@@ -153,6 +153,8 @@
 .marker.marker-small {
   background: var(--buttons);
   margin-bottom: 2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .card {
@@ -208,12 +210,13 @@
 }
 .course-preview img {
   width: 150px;
+  height: 100px;
   object-fit: cover;
 }
 .course-preview p {
   font-size: 14px;
 }
-.course-preview div h4 {
+.course-preview div span {
   font-size: 16px;
 }
 .course-preview div a {
@@ -242,5 +245,8 @@
 @media (max-width: 600px) {
   .py-4 {
     padding: 3rem 0;
+  }
+  .course-preview img {
+    height: 200px;
   }
 }

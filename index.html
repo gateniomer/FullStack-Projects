@@ -5,9 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/utilities.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mobile.css">
@@ -27,10 +24,10 @@
     <!-- Social Links -->
     <nav class="social">
       <ul>
-        <li><a href="https://github.com/gateniomer/Portfolio1---HTML-CSS" target="_blank"><i class="fab fa-github fa-3x"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/omer-gatenio-949482174/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></li>
-        <li><a href="mailto:gateniomer@gmail.com" target="_blank"><i class="fab fa-google fa-3x"></i></a></li>
-        <li><a href="https://github.com/gateniomer" target="_blank"><img src="https://avatars.githubusercontent.com/u/98481291?s=96&v=4" alt=""></a></li>
+        <li><a href="https://github.com/gateniomer/Portfolio1---HTML-CSS" aria-label="Github Project" target="_blank"><i class="fab fa-github fa-3x"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/omer-gatenio-949482174/" aria-label="Linkedin" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></li>
+        <li><a href="mailto:gateniomer@gmail.com" aria-label="Gmail" target="_blank"><i class="fab fa-google fa-3x"></i></a></li>
+        <li><a href="https://github.com/gateniomer" aria-label="Github Profile" target="_blank"><img src="https://avatars.githubusercontent.com/u/98481291?s=96&v=4" alt=""></a></li>
       </ul>
     </nav>
   </header>
@@ -62,7 +59,7 @@
         <div style="width: 40%; background-color: rgb(134, 134, 76);"></div>
       </div>
       <div class="column-left">
-        <h4>This website was built using</h4>
+        <span id="small-title">This website was built using</span>
         <h2><span class="marker">HTML</span> & <span class="marker">CSS</span></h2>
         <p>As part of my self-learning journey, I challenged my programming & design skills by developing a website using only HTML & CSS.</p>
         <br>
@@ -80,7 +77,7 @@
         </div>
       </div>
       <div class="column-right">
-        <img src="img/html-css-logo.png" alt="Portfolio Website" class="float-anim">
+        <img src="img/html-css-logo.webp" alt="Portfolio Website" class="float-anim">
       </div>
     </div>
     <div class="container-bottom-text float-anim">Continue Scrolling <i class="fas fa-chevron-down"></i></div>
@@ -91,11 +88,15 @@
     <div class="container">
       <div>
         <h2 class="marker"><i class="fab fa-html5"></i> Made With HTML</h2>
-        <h4 class="marker marker-small">the standard markup language for documents designed to be displayed in a web browser.</h4>
+        <span class="marker marker-small">the standard markup language for documents designed to be displayed in a web browser.</span>
         <p>HTML stands for HyperText Markup Language. It is a standard markup language for web page creation. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes. It’s also worth noting that HTML is not considered a programming language as it can’t create dynamic functionality.</p>
         <a href="https://www.hostinger.com/tutorials/what-is-html" target="_blank">soruce: hostinger</a>
       </div>
-      <img src="./img/animation_html.gif">
+      <!-- <img src="./img/animation_html.gif"> -->
+      <video width="50%" playsinline autoplay muted loop>
+        <source src="./img/animation_html.webm" type="video/webm">
+        Error Message
+      </video>
     </div>
   </section>
 
@@ -104,13 +105,13 @@
     <div class="container">
       <div>
         <h2 class="marker">Made With CSS <i class="fab fa-css3-alt"></i></h2>
-        <h4 class="marker marker-small">a simple mechanism for adding style (e.g., fonts, colors, spacing) to web documents.</h4>
+        <span class="marker marker-small">a simple mechanism for adding style (e.g., fonts, colors, spacing) to web documents.</span>
         <p>CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. The separation of HTML from CSS makes it easier to maintain sites, share style sheets across pages, and tailor pages to different environments.</p>
         <a href="https://www.w3.org/standards/webdesign/htmlcss" target="_blank">source: w3.org</a>
       </div>
       <!-- <img src="./img/animation_css.gif"> -->
-      <video width="50%" loop autoplay>
-        <source src="./img/animation_css.webm" type="video/mp4">
+      <video width="50%" playsinline autoplay muted loop>
+        <source src="./img/animation_css.webm" type="video/webm">
         Error Message
       </video>
     </div>
@@ -120,7 +121,7 @@
   <section id="home-design-theory" class="py-4">
     <div class="container">
       <h2 class="marker"><i class="fa-solid fa-pen-ruler"></i> Designed Theory In Mind</h2>
-      <h4 class="marker marker-small">a system of ideas that explains how and why design works.</h4>
+      <span class="marker marker-small">a system of ideas that explains how and why design works.</span>
       <div class="box-container">
         <div class="box">
           <i class="fa-solid fa-palette icon"></i>
@@ -150,20 +151,20 @@
   <section id="home-tools" class="py-4">
     <div class="container">
       <h2 class="marker"><i class="fa-solid fa-toolbox"></i> Tools I Used In This Project </h2>
-      <h4 class="marker marker-small">the most professional & useful tools available on the market!</h4>
+      <span class="marker marker-small">the most professional & useful tools available on the market!</span>
         <div class="box-container">
 
-        <a href="https://affinity.serif.com/en-us/designer/" target="_blank"><div class="img-container"><img src="img/cards/card6.png" alt=""></div>Affinity Designer</a>
+        <a href="https://affinity.serif.com/en-us/designer/" target="_blank"><div class="img-container"><img src="img/cards/card6.webp" alt=""></div>Affinity Designer</a>
 
         <a href="https://coolors.co/" target="_blank"><div class="img-container"><img src="img/cards/card1.webp" alt=""></div>COOLORS</a>
         
-        <a href="https://cssgradient.io/" target="_blank"><div class="img-container"><img src="img/cards/card2.png" alt=""></div> CSS Gradient</a>
+        <a href="https://cssgradient.io/" target="_blank"><div class="img-container"><img src="img/cards/card2.webp" alt=""></div> CSS Gradient</a>
         
-        <a href="https://coolbackgrounds.io/" target="_blank"><div class="img-container"><img src="img/cards/card3.png" alt=""></div>Cool Backgrounds</a>
+        <a href="https://coolbackgrounds.io/" target="_blank"><div class="img-container"><img src="img/cards/card3.webp" alt=""></div>Cool Backgrounds</a>
         
-        <a href="https://fonts.google.com/" target="_blank"><div class="img-container"><img src="img/cards/card4.png" alt=""></div>Google Fonts</a>
+        <a href="https://fonts.google.com/" target="_blank"><div class="img-container"><img src="img/cards/card4.webp" alt=""></div>Google Fonts</a>
 
-        <a href="https://code.visualstudio.com/" target="_blank"><div class="img-container"><img src="img/cards/card5.png" alt=""></div>Visual Studio Code</a>
+        <a href="https://code.visualstudio.com/" target="_blank"><div class="img-container"><img src="img/cards/card5.webp" alt=""></div>Visual Studio Code</a>
 
         
       </div>
@@ -177,28 +178,28 @@
       <div>
         <h2 class="marker"><i class="fa-solid fa-book-open-reader"></i> About This Project
         </h2>
-        <h4 class="marker marker-small">
+        <span class="marker marker-small">
           and what the future holds ✨
-        </h4>
+        </span>
         <p>Thank you 🙏 for checking out my HTML & CSS project. This is just one of many projects I created in my self-learning journey to become a Full-Stack developer.</p>
         <br>
         <p>If you like this project and want to see more, follow my progression or contact me personally, check out my Linkedin/Github accounts. There's a lot to expect!</p>
       </div>
       <div>
-        <h4>Related Courses Enrolled</h4>
+        <span>Related Courses Enrolled</span>
         <div class="course-preview">
-          <img src="./img/course2.jpg" alt="">
+          <img src="./img/course2.webp" alt="Modern HTML & CSS From The Beginning (Including Sass)">
           <div>
-            <h4>Modern HTML & CSS From The Beginning (Including Sass)</h4>
+            <span>Modern HTML & CSS From The Beginning (Including Sass)</span>
             <p>Brad Traversy</p>
             <a href="https://www.udemy.com/course/modern-html-css-from-the-beginning/" target="_blank">View Course</a>
             <a href="files/Modern HTML & CSS From The Beginning (Including Sass).pdf" download>View Certificate</a>
           </div>
         </div>
         <div class="course-preview">
-          <img src="./img/course1.jpg" alt="">
+          <img src="./img/course1.webp" alt="The Complete Graphic Design Theory for Beginners Course">
           <div>
-            <h4>The Complete Graphic Design Theory for Beginners Course</h4>
+            <span>The Complete Graphic Design Theory for Beginners Course</span>
             <p>Lindsay Marsh, Jeremy Deighan</p>
             <a href="https://www.udemy.com/course/graphic-design-theory-for-beginners-course/" target="_blank">View Course</a>
             <a href="files/The Complete Graphic Design Theory for Beginners Course.pdf" download>View Certificate</a>
@@ -216,10 +217,9 @@
     <!-- Social Links -->
     <nav class="social">
       <ul>
-        <li><a href="https://github.com/gateniomer/Portfolio1---HTML-CSS" target="_blank"><i class="fab fa-github fa-3x"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/omer-gatenio-949482174/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></li>
-        <li><a href="https://www.facebook.com/omer.gatenio.98/" target="_blank"><i class="fab fa-facebook fa-3x"></i></a></li>
-        <li><a href="mailto:gateniomer@gmail.com" target="_blank"><i class="fab fa-google fa-3x"></i></a></li>
+        <li><a href="https://github.com/gateniomer/Portfolio1---HTML-CSS" aria-label="Github Project" target="_blank"><i class="fab fa-github fa-3x"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/omer-gatenio-949482174/" aria-label="Linkedin" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></li>
+        <li><a href="mailto:gateniomer@gmail.com" aria-label="Gmail" target="_blank"><i class="fab fa-google fa-3x"></i></a></li>
       </ul>
     </nav>
     <p>&copy; All Rights Reserved to Omer Gatenio</p>
