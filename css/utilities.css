@@ -39,7 +39,7 @@
 }
 
 .icon {
-  width: 16px;
+  display: inline-flex;
 }
 .icon-box {
   box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
@@ -143,10 +143,13 @@
 }
 
 .marker {
-  display: inline-block;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
   width: fit-content;
   background: var(--secondary-color);
-  padding: 0 1rem;
+  padding: 0.5rem 1rem;
   margin-bottom: 1rem;
   opacity: 0.9;
   border-radius: 20px 0 20px 0;
@@ -256,7 +259,48 @@
 
 .github-icon {
   width: 50px;
-  height: 50px;
-  background-color: red;
-  mask: url("/img/icons/github.svg") no-repeat center;
+  height: 60px;
+  background-color: var(--primary-color);
+  -webkit-mask: url("../img/icons/github.svg") no-repeat center;
+  mask: url("../img/icons/github.svg") no-repeat center;
+}
+
+.linkedin-icon {
+  width: 50px;
+  height: 60px;
+  background-color: var(--primary-color);
+  -webkit-mask: url("../img/icons/linkedin.svg") no-repeat center;
+  mask: url("../img/icons/linkedin.svg") no-repeat center;
+}
+
+.google-icon {
+  width: 50px;
+  height: 60px;
+  background-color: var(--primary-color);
+  -webkit-mask: url("../img/icons/google.svg") no-repeat center;
+  mask: url("../img/icons/google.svg") no-repeat center;
+}
+
+.html-icon {
+  width: 50px;
+  height: 60px;
+  background-color: var(--primary-color);
+  -webkit-mask: url("../img/icons/html5.svg") no-repeat center;
+  mask: url("../img/icons/html5.svg") no-repeat center;
+}
+
+.css-icon {
+  width: 50px;
+  height: 60px;
+  background-color: var(--primary-color);
+  -webkit-mask: url("../img/icons/css3-alt.svg") no-repeat center;
+  mask: url("../img/icons/css3-alt.svg") no-repeat center;
+}
+
+.pen-ruler-icon {
+  width: 50px;
+  height: 60px;
+  background-color: var(--primary-color);
+  -webkit-mask: url("../img/icons/pen-ruler-solid.svg") no-repeat center;
+  mask: url("../img/icons/pen-ruler-solid.svg") no-repeat center;
 }

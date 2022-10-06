@@ -196,7 +196,7 @@ svg {
   margin: 5px 0;
 }
 
-#home-html .container div:first-child {
+#home-html .container > div:first-child {
   width: 50%;
 }
 
@@ -230,7 +230,7 @@ svg {
   gap: 2rem;
 }
 
-#home-css .container div:first-child {
+#home-css .container > div:first-child {
   width: 60%;
 }
 

@@ -26,7 +26,8 @@
   #header ul {
     justify-content: right;
   }
-  #header nav ul li a img {
+  #header nav ul li a img,
+  #header nav ul li a div {
     width: 40px;
     height: 40px;
     margin-left: 0px;
@@ -47,7 +48,7 @@
     gap: 2rem;
   }
 
-  #home-html .container div:first-child {
+  #home-html .container > div:first-child {
     width: 100%;
   }
 
@@ -60,7 +61,7 @@
     gap: 2rem;
   }
 
-  #home-css .container div:first-child {
+  #home-css .container > div:first-child {
     width: 100%;
   }
   #home-css .container img {
