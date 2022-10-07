@@ -308,6 +308,7 @@
 }
 
 .code-icon {
+  height: 50px;
   -webkit-mask: url("../img/icons/code-solid.svg") no-repeat center;
   mask: url("../img/icons/code-solid.svg") no-repeat center;
 }

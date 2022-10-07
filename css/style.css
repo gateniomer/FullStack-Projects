@@ -84,13 +84,24 @@ svg {
   justify-content: space-between;
   padding: 10px var(--p-normal);
 }
-#header h1 a {
+
+#header #logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+#header #logo h1 a {
   color: var(--primary-color);
   font-size: calc(24px + 1vw);
   line-height: calc(1.1em + 0.5vw);
 }
+
 #header #logo #logo-icon {
-  padding: 0 0.6rem;
+  width: calc(48px + 1vw);
+  padding: 0 0.5rem;
   border-radius: 1rem;
   display: flex;
   justify-content: center;
@@ -112,13 +123,6 @@ svg {
   border-radius: 50%;
   width: 70px;
   height: 70px;
-}
-
-#logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
 }
 
 /* Home page */
