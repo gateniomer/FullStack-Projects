@@ -112,4 +112,8 @@
   #home-tools .container .box-container a {
     font-size: 18px;
   }
+  #popup {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
